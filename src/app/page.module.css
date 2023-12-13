@@ -1,0 +1,55 @@
+.wellcome_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcfdf6;
+}
+.title_text {
+  margin-bottom: 15px;
+  width: 370px;
+  height: 100px;
+  background-color: #dfc6e3d8;
+
+  border-bottom: #d3beccd7 solid 13px;
+  border-left: #d3beccd7 solid 10px;
+  border-right: #d3beccd7 solid 10px;
+  box-shadow: 1px 1px 5px #00000049;
+}
+.wellcome_image {
+  width: 450px;
+  height: 450px;
+}
+@media screen and (max-width: 768px) {
+  .wellcome_image {
+    display: none;
+  }
+  .wellcome_container {
+    background-image: url("../../public/imgDama.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+  }
+  .text {
+    background-color: rgba(231, 212, 225, 0.475);
+    font-weight: 500;
+  }
+}
+.wellcome_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 450px;
+  color: #8b6c5b;
+}
+.courses_container {
+  background-color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
