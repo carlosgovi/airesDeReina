@@ -81,7 +81,7 @@ const Header = () => {
             <div className={styles.logo_redes}>
               <Link
                 href={
-                  "https://api.whatsapp.com/send/?phone=5491166954970&text=Hola&app_absent=0"
+                  "https://api.whatsapp.com/send/?phone=543413371377&text=Hola%20me%20gustaría%20saber%20más&app_absent=0"
                 }
               >
                 <Image
@@ -94,7 +94,7 @@ const Header = () => {
               </Link>
             </div>
             <div className={styles.logo_redes}>
-              <Link href={"https://www.instagram.com/airesdereina"}>
+              <Link href={"https://www.instagram.com/airesdereinaaltacostura/"}>
                 <Image
                   width={40}
                   height={40}
@@ -105,7 +105,7 @@ const Header = () => {
               </Link>
             </div>
             <div className={styles.logo_redes}>
-              <Link href={"https://www.facebook.com/airesdereina"}>
+              <Link href={"https://www.facebook.com/veronica.dangelo.92798/"}>
                 <Image
                   width={40}
                   height={40}

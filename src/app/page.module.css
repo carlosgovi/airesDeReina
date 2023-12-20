@@ -10,7 +10,6 @@
   width: 370px;
   height: 100px;
   background-color: #dfc6e3d8;
-
   border-bottom: #d3beccd7 solid 13px;
   border-left: #d3beccd7 solid 10px;
   border-right: #d3beccd7 solid 10px;
@@ -47,9 +46,100 @@
 }
 .courses_container {
   background-color: #fbfbfb;
+  padding: 5%;
+}
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 0.5fr));
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.courses_container_title {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.courses_title {
+  color: #d8c881;
+  padding: 20px;
+}
+/* CARD INDUMENTARI */
+.indumentari_container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container_cards_indumentari {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.card_indumentari {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: 300px;
+  gap: 10px;
+}
+.card_indumentari_image {
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card_indumentari_conteiner_title_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.card_indumentari_title {
+  color: #d8c881;
+}
+.card_indumentari_button {
+  display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
-  padding: 5%;
+  width: 130px;
+  height: 50px;
+  color: black;
+  border: #d7d6d6 solid 1px;
+}
+.card_indumentari_button:hover {
+  background-color: #eacffa;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .container_cards_indumentari {
+    flex-direction: column;
+  }
+  .card_indumentari_conteiner_title_button {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+  }
+  .card_indumentari {
+    position: relative;
+  }
+  .card_indumentari_button {
+    background-color: #eacffa;
+    color: white;
+  }
+  .card_indumentari_conteiner_title_button {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+  }
+  .card_indumentari_title {
+    text-shadow: rgba(31, 28, 11, 0.595) 1px 1px 5px;
+  }
 }

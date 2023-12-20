@@ -1,0 +1,92 @@
+[
+  {
+    "srcImg": "/cursos/imgCursoBlaser.jpg",
+    "title": "BLAZER Y PANTALON",
+    "description": [
+      "lorem ipsum nullam sit amet  nullam sit amet lorem ip nullam sit amet lorem iplorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet "
+    ],
+    "durationData": "12 clases - 2hs cada una"
+  },
+  {
+    "srcImg": "/cursos/imgCursoLenceria.jpg",
+    "title": "LENCERIA",
+    "description": [
+      "lorem ipsum nullam sit amet  nullam sit amet lorem ip nullam sit amet lorem iplorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet "
+    ],
+    "durationData": "12 clases - 2hs cada una"
+  },
+  {
+    "srcImg": "/cursos/imgCursoBordado.jpg",
+    "title": "BORDADO",
+    "description": [
+      "lorem ipsum nullam sit amet  nullam sit amet lorem ip nullam sit amet lorem iplorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet "
+    ],
+    "durationData": "12 clases - 2hs cada una"
+  },
+  {
+    "srcImg": "/cursos/imgCursoCorceteria.jpg",
+    "title": "CORSETERIA",
+    "description": [
+      "lorem ipsum nullam sit amet  nullam sit amet lorem ip nullam sit amet lorem iplorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet "
+    ],
+    "durationData": "12 clases - 2hs cada una"
+  },
+  {
+    "srcImg": "/cursos/imgCursoBustier.jpg",
+    "title": "BUSTIER",
+    "description": [
+      "lorem ipsum nullam sit amet  nullam sit amet lorem ip nullam sit amet lorem iplorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet "
+    ],
+    "durationData": "12 clases - 2hs cada una"
+  },
+  {
+    "srcImg": "/cursos/imgCursoAltaCostura.jpg",
+    "title": "ALTA COSTURA",
+    "description": [
+      "lorem ipsum nullam sit amet  nullam sit amet lorem ip nullam sit amet lorem iplorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet lorem ipsum",
+      "lorem ipsum nullam sit amet "
+    ],
+    "durationData": "12 clases - 2hs cada una"
+  }
+]
