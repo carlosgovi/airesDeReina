@@ -1,20 +1,20 @@
 import React from "react";
 import Image from "next/image";
 import CardCourse from "@/app/components/cardCourse/cardCourse";
-import style from "./lenceria.module.css";
+import style from "./pantalon.module.css";
 import { Libre_Baskerville } from "next/font/google";
 const libreBaskerville = Libre_Baskerville({
   weight: "400",
   subsets: ["latin"],
 });
-const Lenceria = () => {
+const Pantalon = () => {
   return (
-    <div>
+    <div className={style.container}>
       <div
         style={{
           width: "100%",
           height: "100vh",
-          backgroundImage: `url(/cursos/imgCursoLenceria.jpg)`,
+          backgroundImage: `url(/cursos/imgCursoPantalon.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -24,18 +24,18 @@ const Lenceria = () => {
       ></div>
 
       <CardCourse
-        title="Lenceria"
-        text="En el curso descubrirás técnicas para poder confeccionar de una manera fácil y práctica, diferentes modelos de ropa interior y malla."
+        title="TALLER DE PANTALON"
+        text="El taller te brindará las herramientas necesarias para desarrollar la moldería base y sus transformaciones, las nociones básicas de costura , armado, colocación de cierres y terminaciones."
         clases={12}
         horas={2}
       />
       <section className={style.container_description_course}>
         <div className={style.container_description_img}>
           <Image
-            src="/cursos/imgCursoLenceria2.jpg"
+            src="/cursos/imgCursoPantalon2.jpg"
             alt="Aires de Reina"
-            width={450}
-            height={450}
+            width={350}
+            height={350}
             style={{
               width: "100%",
               height: "100%",
@@ -58,121 +58,91 @@ const Lenceria = () => {
           ></div>
           <div className={style.container_text}>
             <h5 className={`${libreBaskerville.className} ${style.title} `}>
-              Lenceria
+              TALLER DE PANTALON
             </h5>
-
             <ul>
               <ul>
                 <li>
-                  <h5>Clase 1:</h5>
+                  <h5>1. Introducción y Bases:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Charla sobre los materiales a utilizar.</li>
-                    <li>Toma de medidas. </li>
-                    <li>Tabla de talles.</li>
-                    <li>Técnicas para elastizar</li>
+                    <li>Presentación del curso.</li>
+                    <li>Materiales y medidas.</li>
+                    <li>Creación del pantalón base delantero y espalda.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 2:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Molderia de diferentes modelos de bombachas.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>Clase 3:</h5>
+                  <h5>2. Transformaciones Esenciales:</h5>
                   <ul style={{ listStyle: "disc" }}>
                     <li>
-                      Corte delantero de vedettina en puntilla. Elastizado de
-                      breteles.
+                      Transformación a pantalón elastizado delantero y espalda.
                     </li>
-                  </ul>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <h5>Clase 4:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Trazado de la moldería del corpiño triángulo.</li>
-                    <li>Tabla de medidas.</li>
-                    <li>Modelos de tazas en bondeado.</li>
+                    <li>Materiales y medidas.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 5:</h5>
+                  <h5>3. Estilos Específicos y Ajustes:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li> Proceso de armado.</li>
+                    <li>Diseño de pantalón tipo jeans.</li>
+                    <li>Modificaciones en el tiro y correcciones.</li>
+                    <li>Ajustes en el trazado de la pierna.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 6:</h5>
+                  <h5>4. Progresión y Armado:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Práctica con los materiales elastizados.</li>
+                    <li>Progresión y regresión en el diseño.</li>
+                    <li>Plano de corte.</li>
+                    <li>Armado general del pantalón.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 7:</h5>
+                  <h5>5. Detalles del Frente:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Corpiño con arco. Moldería. Diferentes materiales.</li>
+                    <li>Armado del bolsillo delantero.</li>
+                    <li>Colocación del cierre.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 8:</h5>
+                  <h5>6. Detalles Traseros y Ensamble:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Trazado de las tazas. Recorridos del arco.</li>
+                    <li>Armado del bolsillo trasero si es necesario.</li>
+                    <li>Ensamble de la parte delantera con la trasera.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 9:</h5>
+                  <h5>7. Cintura y Acabados:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Progresiones de talles.</li>
+                    <li>Entretelado de la cintura y su armado.</li>
+                    <li>Armado de pasacintos si es necesario.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 10:</h5>
+                  <h5>8. Ensamble Final y Detalles:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Unión de tazas a la cintura. Terminaciones.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>Clase 11:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Corte de malla enteriza.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>Clase 12:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Terminaciones.</li>
+                    <li>Unión de la cintura.</li>
+                    <li>Terminaciones de ruedo.</li>
+                    <li>Proceso final de planchado.</li>
                   </ul>
                 </li>
               </ul>
@@ -184,4 +154,4 @@ const Lenceria = () => {
   );
 };
 
-export default Lenceria;
+export default Pantalon;

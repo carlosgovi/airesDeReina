@@ -1,20 +1,20 @@
 import React from "react";
 import Image from "next/image";
 import CardCourse from "@/app/components/cardCourse/cardCourse";
-import style from "./corseteria.module.css";
+import style from "./costurabasica.module.css";
 import { Libre_Baskerville } from "next/font/google";
 const libreBaskerville = Libre_Baskerville({
   weight: "400",
   subsets: ["latin"],
 });
-const Corseteria = () => {
+const CosturaBasica = () => {
   return (
     <div>
       <div
         style={{
           width: "100%",
           height: "100vh",
-          backgroundImage: `url(/cursos/imgCursoCorseteria.jpg)`,
+          backgroundImage: `url(/cursos/imgCursoCosturaBasica.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -24,16 +24,15 @@ const Corseteria = () => {
       ></div>
 
       <CardCourse
-        title="Corseteria"
-        text="El curso de corseteria está orientado para alumnos que tengan la capacidad y el compromiso de aprender a realizar piezas como verdaderas obras de arte. Aprenderán desde cero a realizar prendas sofisticadas con diferentes grados de complejidad.
-Excelencia, es la palabra que caracteriza éste curso."
-        clases={12}
+        title="Costura Basica"
+        text="Éste curso está pensado para personas que no tienen conocimientos previos y en el cuál aprenderán técnicas de costura y moldería para crear prendas de alta calidad."
+        clases={6}
         horas={2}
       />
       <section className={style.container_description_course}>
         <div className={style.container_description_img}>
           <Image
-            src="/cursos/imgCursoCorseteria2.jpg"
+            src="/cursos/imgCursoCosturaBasica2.jpg"
             alt="Aires de Reina"
             width={450}
             height={450}
@@ -59,7 +58,7 @@ Excelencia, es la palabra que caracteriza éste curso."
           ></div>
           <div className={style.container_text}>
             <h5 className={`${libreBaskerville.className} ${style.title} `}>
-              CORSETERIA
+              Costura Basica
             </h5>
 
             <ul>
@@ -67,139 +66,133 @@ Excelencia, es la palabra que caracteriza éste curso."
                 <li>
                   <h5>Clase 1:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Presentación.</li>
-                    <li>Historia del corsé.</li>
-                    <li>Materiales textiles.</li>
+                    <li>Tabla de talles.</li>
                     <li>Toma de medidas.</li>
+                    <li>Reconocimiento de herramientas de trabajo.</li>
+                    <li>Materiales textiles.</li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 2:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Moldería del corpiño base con pinzas.</li>
-                    <li>Transformación a corsé base.</li>
+                    <li>Moldería base de Falda.</li>
+                    <li>Talle 44 y a medida.</li>
+                    <li>Molde en escala.</li>
+                    <li>Corte al hilo y al bies.</li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 3:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Comienzo del armado del corsé.</li>
-                    <li>Diferentes modelos.</li>
+                    <li>
+                      Transformaciones partiendo del molde base para realizar
+                      otros modelos.
+                    </li>
+                    <li>Falda recta, tubo, evase.</li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 4:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Unión de las piezas.</li>
-                    <li>Hilvanes y costuras a máquina.</li>
-                    <li>Canal para las ballenas.</li>
+                    <li>Armado de la falda.</li>
+                    <li>Diferentes puntadas a mano.</li>
+                    <li>Plano de corte, tizada y corte.</li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 5:</h5>
                   <ul style={{ listStyle: "disc" }}>
                     <li>
-                      Colocación del cierre con terminaciones de alta costura.
+                      Faldas media campana, acampanada y con diferentes vuelos,
+                      quillas, godets.
                     </li>
-                    <li>Armado de la forrería.</li>
-                    <li>Tips y detalles de terminaciones a mano.</li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 6:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Ejercicios de moldería para lograr nuevos diseños.</li>
                     <li>
-                      Cerramiento de la forrería con terminaciones a mano.
+                      Trabajo en máquina familiar y confección de la falda.
                     </li>
+                    <li>Puntadas rectas y zigzag.</li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 7:</h5>
                   <ul style={{ listStyle: "disc" }}>
                     <li>
-                      Trabajo con diferentes materiales textiles como tules
-                      bordados, encajes, etc.
+                      Terminaciones, vista interna, pretina, diferentes tipos de
+                      cierres.
                     </li>
-                    <li>Recorte, encastre y bordado a mano.</li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 8:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Bustier.</li>
-                    <li>Corsé con taza.</li>
-                    <li>Materiales a utilizar.</li>
-                    <li>Bondeado, tules, ballenas, cintas y más.</li>
+                    <li>Moldería base de tela de punto.</li>
                     <li>
-                      Comienzo de la transformación desde la base del corsé a
-                      Bustier.
+                      Reconocimiento en telas con elasticidades diferentes.
                     </li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 9:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Trabajo de pinzas para armar las tazas.</li>
-                    <li>Práctica con diferentes radios de mama.</li>
-                    <li>Armado en el bondeado.</li>
-                    <li>Armado del cuerpo con transparencia.</li>
+                    <li>Armado de una remera.</li>
+                    <li>
+                      Conocimiento de la función de una máquina remalladora.
+                    </li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 10:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>
-                      Diferentes maneras de coser las cintas para pasar las
-                      ballenas.
-                    </li>
-                    <li>Terminaciones diversas.</li>
+                    <li>Terminación de la remera.</li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 11:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Unión de las tazas al cuerpo del bustier.</li>
-                    <li>Diferentes cerramientos.</li>
-                    <li>Cierres, cintas, ojalillos.</li>
+                    <li>Molde base de corpiño con pinzas.</li>
+                    <li>Tela plana.</li>
+                    <li>Por talle y a medida.</li>
+                    <li>
+                      Elección de una prenda: Blusa, camisa o un vestido
+                      sencillo.
+                    </li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 12:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Finalización del armado.</li>
+                    <li>Transformación del corpiño base al diseño elegido.</li>
+                    <li>Manga base.</li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 13:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Moldería de una falda sirena.</li>
-                    <li>Diferentes modelos.</li>
-                    <li>Cálculo de metros de cantidad de tela.</li>
+                    <li>
+                      Plano de corte, tizada, corte y armado de la prenda.
+                    </li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 14:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Armado de la falda.</li>
-                    <li>Tizada.</li>
+                    <li>Costuras a máquina.</li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 15:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Proceso de armado de la falda.</li>
-                    <li>
-                      Colocación de cierre y explicación para unirla a la
-                      cintura.
-                    </li>
+                    <li>Diferentes tipos de mangas.</li>
                   </ul>
                 </li>
                 <li>
                   <h5>Clase 16:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Diferentes terminaciones de ruedo.</li>
-                    <li>Ruloté a mano y a máquina.</li>
+                    <li>Final y presentación de los trabajos.</li>
                   </ul>
                 </li>
               </ul>
@@ -211,4 +204,4 @@ Excelencia, es la palabra que caracteriza éste curso."
   );
 };
 
-export default Corseteria;
+export default CosturaBasica;

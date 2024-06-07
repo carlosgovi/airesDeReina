@@ -137,7 +137,7 @@
   .card_indumentari_conteiner_title_button {
     display: flex;
     justify-content: right;
-    align-items: end;
+    align-items: flex-end;
   }
   .card_indumentari_title {
     text-shadow: rgba(31, 28, 11, 0.595) 1px 1px 5px;

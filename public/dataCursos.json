@@ -1,76 +1,78 @@
 [
   {
-    "srcImg": "/cursos/imgCursoBlaser.jpg",
-    "title": "BLAZER Y PANTALON",
+    "srcImg": "/cursos/imgCursoPantalon.jpg",
+    "title": "TALLER DE PANTALON",
     "description": [
-      "lorem ipsum nullam sit amet  nullam sit amet lorem ip nullam sit amet lorem iplorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet "
+      "No es necesario tener conocimientos previos",
+      "Grupos reducidos",
+      "Aprenderán a tomar medidas y a trabajar también con tabla de talles",
+      "Proyecto y materialización de la prenda",
+      "Transformaciones esenciales",
+      "Complemento con diferentes bolsillos"
     ],
-    "durationData": "12 clases - 2hs cada una"
+    "durationData": "8 clases - 2hs semanales"
+  },
+  {
+    "srcImg": "/cursos/imgCursoBlazer.jpg",
+    "title": "TALLER DE BLAZER",
+    "description": [
+      "No es necesario tener conocimientos previos",
+      "Grupos reducidos",
+      "Aprenderán a tomar medidas y a trabajar también con tabla de talles",
+      "Transformación y estilo",
+      "Manga y textiles",
+      "Forrería y ajustes"
+    ],
+    "durationData": "8 clases - 2hs semanales"
   },
   {
     "srcImg": "/cursos/imgCursoLenceria.jpg",
     "title": "LENCERIA",
     "description": [
-      "lorem ipsum nullam sit amet  nullam sit amet lorem ip nullam sit amet lorem iplorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet "
+      "No es necesario tener conocimientos previos",
+      "Grupos reducidos",
+      "Aprenderán a tomar medidas y a trabajar también con tabla de talles",
+      "diferenciar tejidos con diferentes grados de elasticidad",
+      "Uso de diferentes máquinas",
+      "Realizarán el trazado base del molde y las transformaciones necesarias para realizar el corpiño base triangular, con aro , varios modelos de bombachas y malla."
     ],
-    "durationData": "12 clases - 2hs cada una"
+    "durationData": "12 clases - 2hs semanales"
   },
   {
     "srcImg": "/cursos/imgCursoBordado.jpg",
     "title": "BORDADO",
     "description": [
-      "lorem ipsum nullam sit amet  nullam sit amet lorem ip nullam sit amet lorem iplorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet "
+      "No es necesario tener conocimientos previos",
+      "Ayuda dràsticamente a reducir el strés. Bordar se convierte en ese momento de calma diaria que te ayuda a desconectar de los problemas cotidianos ",
+      "Bordar disminuye la frecuencia cardíaca",
+
+      "Aprenderás todos los secretos de ésta técnica milenaria, como decían los romanos 'la pintura con aguja es un arte'."
     ],
-    "durationData": "12 clases - 2hs cada una"
+    "durationData": "16 clases - 2.5hs semanales"
   },
   {
-    "srcImg": "/cursos/imgCursoCorceteria.jpg",
+    "srcImg": "/cursos/imgCursoCorseteria.jpg",
     "title": "CORSETERIA",
     "description": [
-      "lorem ipsum nullam sit amet  nullam sit amet lorem ip nullam sit amet lorem iplorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet "
+      "No es necesario tener conocimientos previos",
+      "Los cursos son reducidos",
+      "Atención personalizada con cada alumn@",
+      "Son tres las prendas que se materializan",
+      "Un corset clásico, entretelado, emballenado con cierre, un bustier con tazas armadas y confeccionadas en bondeado y una falda larga corte sirena",
+      "Terminaciones de alta costura"
     ],
-    "durationData": "12 clases - 2hs cada una"
+    "durationData": "16 clases - 3hs semanales"
   },
   {
     "srcImg": "/cursos/imgCursoBustier.jpg",
     "title": "BUSTIER",
     "description": [
-      "lorem ipsum nullam sit amet  nullam sit amet lorem ip nullam sit amet lorem iplorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet "
+      "Aprenderán a tomar medidas específicas y exactas para lograr una taza de corpiño perfecta.",
+      "La misma se realiza en el bondeado con moldería realizada por el alumno.",
+      "Grupos reducidos para una atención personalizada.",
+      "Aprenderán a diferenciar tejidos con diferentes grados de elasticidad.",
+      "Uso de diferentes máquinas de costura para ampliar habilidades.",
+      "Realizarán el trazado base del molde y las transformaciones necesarias para crear un corpiño base triangular con aro, así como varios modelos de bombachas y mallas."
     ],
     "durationData": "12 clases - 2hs cada una"
   },
@@ -78,15 +80,26 @@
     "srcImg": "/cursos/imgCursoAltaCostura.jpg",
     "title": "ALTA COSTURA",
     "description": [
-      "lorem ipsum nullam sit amet  nullam sit amet lorem ip nullam sit amet lorem iplorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet lorem ipsum",
-      "lorem ipsum nullam sit amet "
+      "Falta Data",
+      "Falta Data",
+      "Falta Data",
+      "Falta Data",
+      "Falta Data",
+      "Falta Data"
     ],
     "durationData": "12 clases - 2hs cada una"
+  },
+  {
+    "srcImg": "/cursos/imgCursoCosturaBasica.jpg",
+    "title": "COSTURA BASICA",
+    "description": [
+      "No es necesario tener conocimientos previos",
+      "Conocerán las máquinas y aprenderán a usarlas , con sus agujas y accesorios necesarios, así como diferenciar materiales textiles, telas planas y de punto",
+      "Podrás confeccionar prendas a elección",
+      "Estudio de la anatomía de nuestro cuerpo Diferenciar entre una moldería personalizada y una industrial",
+      "Conocimiento amplio del mundo de los materiales textiles",
+      "Moldería, tizado, corte y materialización de la prenda a elección."
+    ],
+    "durationData": "12 clases - -hs semana"
   }
 ]

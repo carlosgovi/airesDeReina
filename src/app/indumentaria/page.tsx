@@ -1,8 +1,6 @@
-import fs from "fs";
-import Slider from "./components/slider/slider";
-import Card from "./components/card/card";
+import Slider from "../components/slider/slider";
 import { Montserrat } from "next/font/google";
-import style from "./page.module.css";
+import style from "../page.module.css";
 import Image from "next/image";
 import { Libre_Baskerville } from "next/font/google";
 
@@ -16,18 +14,11 @@ const libreBaskerville = Libre_Baskerville({
   weight: "400",
   subsets: ["latin"],
 });
-interface jsonData {
-  srcImg: string;
-  title: string;
-  description: [string];
-  durationData: string;
-}
-export default async function Home() {
-  const data = await getdata();
 
+export default async function Indumentary() {
   return (
     <main className={montserrat.className}>
-      {/*  WELLCOME */}
+      {/*  CURSOS */}
 
       <Slider logo="indumentaria" />
       <div
@@ -44,11 +35,8 @@ export default async function Home() {
           </div>
           <div className={style.text}>
             <p className="text-center text-base pl-20 pr-20 ">
-              Sumérgete en la elegancia atemporal con Aires de Reina, donde la
-              moda se entrelaza con la magia de reinas y cuentos. Más que
-              prendas, creamos experiencias únicas. Descubre la exquisitez de
-              nuestras telas, la pasión por los detalles y un estilo romántico
-              que despierta la curiosidad.
+              Te invitamos a descubrir un universo de posibilidades donde la
+              moda y la magia se unen para crear recuerdos inolvidables.
             </p>
           </div>
         </div>
@@ -66,29 +54,9 @@ export default async function Home() {
           ></Image>
         </div>
       </section>
-      {/*   <section className={style.courses_container}>
-     
-        <div className={style.courses_container_title}>
-          <h2 className={`${libreBaskerville.className} color-black text-xl  `}>
-            CURSOS DISPONIBLES
-          </h2>
-          <div
-            style={{ width: "100%", height: "1px", backgroundColor: "#C7B876" }}
-          ></div>
-          <h4
-            className={`${montserrat.className} ${style.courses_title} text-xl  `}
-          >
-            ENCUENTRA TU CAMINO
-          </h4>
-        </div>
-        <div className={style.card_container}>
-          {data?.props.jsonData.map((data: jsonData, index: any) => (
-            <Card key={index} {...data} />
-          ))}
-        </div>
-      </section>
+
+      {/*  CARDS INDUMENTARIA */}
       <section className={style.indumentari_container}>
-     
         <div className={"flex justify-center items-center flex-col p-5"}>
           <h2 className={`${libreBaskerville.className} color-black text-xl  `}>
             INDUMENTARIA
@@ -127,7 +95,7 @@ export default async function Home() {
                 }}
               ></div>
               <div className={style.card_indumentari_button}>
-                <Link href="/indumentaria">
+                <Link href="/indumentaria/novias">
                   <button type="button">VER MÁS</button>
                 </Link>
               </div>
@@ -153,7 +121,7 @@ export default async function Home() {
                 }}
               ></div>
               <div className={style.card_indumentari_button}>
-                <Link href="/indumentaria">
+                <Link href="/indumentaria/quinceaneras">
                   <button type="button">VER MÁS</button>
                 </Link>
               </div>
@@ -178,25 +146,14 @@ export default async function Home() {
                 }}
               ></div>
               <div className={style.card_indumentari_button}>
-                <Link href="/indumentaria">
+                <Link href="/indumentaria/pretaporte">
                   <button type="button">VER MÁS</button>
                 </Link>
               </div>
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </main>
   );
-}
-//get data JSON for Cards Cursos
-async function getdata() {
-  const filePath = "public/dataCursos.json";
-  const jsonData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-
-  return {
-    props: {
-      jsonData,
-    },
-  };
 }

@@ -1,0 +1,74 @@
+.card {
+  width: 377px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.301);
+  position: absolute;
+  z-index: 1;
+  top: 35%;
+  right: 100px;
+  text-wrap: pretty;
+}
+@media screen and (max-width: 500px) {
+  .card {
+    position: relative;
+    right: 0;
+  }
+}
+.card_title {
+  color: #0000008d;
+  text-shadow: #0000004a 1px 1px 3px;
+}
+.card_duration_data {
+  font-weight: 300;
+}
+.card_description {
+  font-weight: 300;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+.card_container_footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_certificate_text {
+  width: 170px;
+  height: 25px;
+  color: #8b6c5b;
+  background-color: #e4d6ce;
+  margin-left: -20px;
+  padding-right: 15px;
+  text-align: right;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+.card_description {
+  list-style-type: disc;
+  margin-left: 1rem;
+}
+.card_button_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card_crown {
+  filter: drop-shadow(2px 2px 4px #00000049);
+}
+.card_button {
+  filter: drop-shadow(2px 2px 4px #00000049);
+  height: 30px;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #eacffa;
+  cursor: pointer;
+}
+.card_logo_watsapp {
+  filter: drop-shadow(3px 3px 5px #00000076);
+  margin: -10px auto;
+}

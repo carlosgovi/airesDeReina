@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "flowbite-react";
 import styles from "./slider.module.css";
 import Image from "next/image";
-const Slider = () => {
+const Slider = (props: { logo: string }) => {
   return (
     <div
       /* className="h-56 sm:h-64 xl:h-80 2xl:h-96" */
@@ -18,7 +18,11 @@ const Slider = () => {
             className={styles.image_slider}
             width={500}
             height={500}
-            src="/logoTwo.png"
+            src={
+              props.logo == "indumentaria"
+                ? "/logoIndumentaria.png"
+                : "/logoCursos.png"
+            }
             alt="Aires de Reina Logo"
             priority
           ></Image>
@@ -30,7 +34,11 @@ const Slider = () => {
             className={styles.image_slider}
             width={500}
             height={500}
-            src="/logoTwo.png"
+            src={
+              props.logo == "indumentaria"
+                ? "/logoIndumentaria.png"
+                : "/logoCursos.png"
+            }
             alt="Aires de Reina Logo"
             priority
           ></Image>
@@ -42,7 +50,11 @@ const Slider = () => {
             className={styles.image_slider}
             width={500}
             height={500}
-            src="/logoTwo.png"
+            src={
+              props.logo == "indumentaria"
+                ? "/logoIndumentaria.png"
+                : "/logoCursos.png"
+            }
             alt="Aires de Reina Logo"
             priority
           ></Image>

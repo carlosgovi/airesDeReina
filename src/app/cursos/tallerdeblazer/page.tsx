@@ -1,20 +1,20 @@
 import React from "react";
 import Image from "next/image";
 import CardCourse from "@/app/components/cardCourse/cardCourse";
-import style from "./lenceria.module.css";
+import style from "./blazer.module.css";
 import { Libre_Baskerville } from "next/font/google";
 const libreBaskerville = Libre_Baskerville({
   weight: "400",
   subsets: ["latin"],
 });
-const Lenceria = () => {
+const Blazer = () => {
   return (
-    <div>
+    <div className={style.container}>
       <div
         style={{
           width: "100%",
           height: "100vh",
-          backgroundImage: `url(/cursos/imgCursoLenceria.jpg)`,
+          backgroundImage: `url(/cursos/imgCursoBlazer.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -24,18 +24,18 @@ const Lenceria = () => {
       ></div>
 
       <CardCourse
-        title="Lenceria"
-        text="En el curso descubrirás técnicas para poder confeccionar de una manera fácil y práctica, diferentes modelos de ropa interior y malla."
+        title="TALLER DE BLAZER"
+        text="Durante este taller, adquirirás las habilidades esenciales para desarrollar la moldería base y sus transformaciones, así como los conocimientos fundamentales de costura, ensamblaje, colocación de detalles y acabados, centrándonos en la confección de un elegante blazer."
         clases={12}
         horas={2}
       />
       <section className={style.container_description_course}>
         <div className={style.container_description_img}>
           <Image
-            src="/cursos/imgCursoLenceria2.jpg"
+            src="/cursos/imgCursoBlazer.jpg"
             alt="Aires de Reina"
-            width={450}
-            height={450}
+            width={350}
+            height={350}
             style={{
               width: "100%",
               height: "100%",
@@ -58,121 +58,109 @@ const Lenceria = () => {
           ></div>
           <div className={style.container_text}>
             <h5 className={`${libreBaskerville.className} ${style.title} `}>
-              Lenceria
+              TALLER DE BLAZER
             </h5>
-
             <ul>
               <ul>
                 <li>
-                  <h5>Clase 1:</h5>
+                  <h5>1. Introducción y Medidas:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Charla sobre los materiales a utilizar.</li>
-                    <li>Toma de medidas. </li>
-                    <li>Tabla de talles.</li>
-                    <li>Técnicas para elastizar</li>
+                    <li>Presentación del curso.</li>
+                    <li>Materiales y medidas.</li>
+                    <li>Corpiño base delantero y espalda.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 2:</h5>
+                  <h5>2. Transformación y Estilo:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Molderia de diferentes modelos de bombachas.</li>
+                    <li>Transformación del corpiño base.</li>
+                    <li>Chaqueta entallada y cuello smoking.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 3:</h5>
+                  <h5>3. Detalles de Diseño:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>
-                      Corte delantero de vedettina en puntilla. Elastizado de
-                      breteles.
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <h5>Clase 4:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Trazado de la moldería del corpiño triángulo.</li>
-                    <li>Tabla de medidas.</li>
-                    <li>Modelos de tazas en bondeado.</li>
+                    <li>Cuello solapa y para solapa.</li>
+                    <li>Creación de la manga base.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 5:</h5>
+                  <h5>4.Manga y Textiles: </h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li> Proceso de armado.</li>
+                    <li>Transformación de manga base.</li>
+                    <li>Manga tipo sastre.</li>
+                    <li>Elección y uso de textiles.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 6:</h5>
+                  <h5>5.Preparación para Confección: </h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Práctica con los materiales elastizados.</li>
+                    <li>Plano de corte.</li>
+                    <li>Inicio de la confección y entretelado.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 7:</h5>
+                  <h5>6. Ensamble Inicial:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Corpiño con arco. Moldería. Diferentes materiales.</li>
+                    <li>Unión de piezas delanteras y traseras.</li>
+                    <li>Unión de hombros y primera prueba.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 8:</h5>
+                  <h5>7. Armado de Mangas:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Trazado de las tazas. Recorridos del arco.</li>
+                    <li>Unión de manga y bajo manga.</li>
+                    <li>Ensamble completo de las mangas.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 9:</h5>
+                  <h5>8. Forrería y Ajustes:</h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Progresiones de talles.</li>
+                    <li>Armado de forrería.</li>
+                    <li>Ajustes necesarios en la forrería.</li>
+                    <li>Unión de la vista con la forrería.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 10:</h5>
+                  <h5>9. Montaje Final: </h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Unión de tazas a la cintura. Terminaciones.</li>
+                    <li>Montaje de forrería a tela principal.</li>
+                    <li>Armado de cuello.</li>
+                    <li>Montaje completo del cuello.</li>
                   </ul>
                 </li>
               </ul>
 
               <ul>
                 <li>
-                  <h5>Clase 11:</h5>
+                  <h5>10. Finalización y Detalles: </h5>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Corte de malla enteriza.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>Clase 12:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Terminaciones.</li>
+                    <li>Terminaciones y ruedos.</li>
+                    <li>Proceso final de planchado.</li>
                   </ul>
                 </li>
               </ul>
@@ -184,4 +172,4 @@ const Lenceria = () => {
   );
 };
 
-export default Lenceria;
+export default Blazer;

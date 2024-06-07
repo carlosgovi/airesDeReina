@@ -1,8 +1,8 @@
 import fs from "fs";
-import Slider from "./components/slider/slider";
-import Card from "./components/card/card";
+import Slider from "../components/slider/slider";
+import Card from "../components/card/card";
 import { Montserrat } from "next/font/google";
-import style from "./page.module.css";
+import style from "../page.module.css";
 import Image from "next/image";
 import { Libre_Baskerville } from "next/font/google";
 
@@ -22,14 +22,14 @@ interface jsonData {
   description: [string];
   durationData: string;
 }
-export default async function Home() {
+export default async function Courses() {
   const data = await getdata();
 
   return (
     <main className={montserrat.className}>
-      {/*  WELLCOME */}
+      {/*  CURSOS */}
 
-      <Slider logo="indumentaria" />
+      <Slider logo="cursos" />
       <div
         style={{ width: "100%", height: "10px", backgroundColor: "#E4D6CE" }}
       ></div>
@@ -66,8 +66,8 @@ export default async function Home() {
           ></Image>
         </div>
       </section>
-      {/*   <section className={style.courses_container}>
-     
+      {/*  CARDS CURSOS */}
+      <section className={style.courses_container}>
         <div className={style.courses_container_title}>
           <h2 className={`${libreBaskerville.className} color-black text-xl  `}>
             CURSOS DISPONIBLES
@@ -87,8 +87,8 @@ export default async function Home() {
           ))}
         </div>
       </section>
-      <section className={style.indumentari_container}>
-     
+      {/*  CARDS INDUMENTARIA */}
+      {/*  <section className={style.indumentari_container}>
         <div className={"flex justify-center items-center flex-col p-5"}>
           <h2 className={`${libreBaskerville.className} color-black text-xl  `}>
             INDUMENTARIA

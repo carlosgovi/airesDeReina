@@ -51,13 +51,13 @@ const Card = (props: Props) => {
           <div className={styles.card_button_container}>
             <Image
               className={styles.card_crown}
-              width={50}
-              height={50}
-              src="/crown.png"
+              width={40}
+              height={40}
+              src="/machine.png"
               alt="Aires de Reina Logo"
             ></Image>
             <Link
-              href={`./cursos/${props.title
+              href={`/cursos/${props.title
                 .toLocaleLowerCase()
                 .trim()
                 .replace(/\s+/g, "")}`}
