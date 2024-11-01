@@ -94,11 +94,11 @@ export default async function Indumentary() {
                   backgroundColor: "#C7B876",
                 }}
               ></div>
+                <Link  href="/indumentaria/novias">
               <div className={style.card_indumentari_button}>
-                <Link href="/indumentaria/novias">
                   <button type="button">VER MÁS</button>
-                </Link>
               </div>
+                </Link>
             </div>
           </div>
 
@@ -120,11 +120,11 @@ export default async function Indumentary() {
                   backgroundColor: "#C7B876",
                 }}
               ></div>
-              <div className={style.card_indumentari_button}>
                 <Link href="/indumentaria/quinceaneras">
+              <div className={style.card_indumentari_button}>
                   <button type="button">VER MÁS</button>
-                </Link>
               </div>
+                </Link>
             </div>
           </div>
           <div className={style.card_indumentari}>
@@ -145,11 +145,11 @@ export default async function Indumentary() {
                   backgroundColor: "#C7B876",
                 }}
               ></div>
-              <div className={style.card_indumentari_button}>
                 <Link href="/indumentaria/pretaporte">
+              <div className={style.card_indumentari_button}>
                   <button type="button">VER MÁS</button>
-                </Link>
               </div>
+                </Link>
             </div>
           </div>
         </div>

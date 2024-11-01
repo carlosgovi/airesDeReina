@@ -1,6 +1,6 @@
 import fs from "fs";
 import Slider from "./components/slider/slider";
-import Card from "./components/card/card";
+
 import { Montserrat } from "next/font/google";
 import style from "./page.module.css";
 import Image from "next/image";
@@ -66,126 +66,27 @@ export default async function Home() {
           ></Image>
         </div>
       </section>
-      {/*   <section className={style.courses_container}>
-     
-        <div className={style.courses_container_title}>
-          <h2 className={`${libreBaskerville.className} color-black text-xl  `}>
-            CURSOS DISPONIBLES
-          </h2>
-          <div
-            style={{ width: "100%", height: "1px", backgroundColor: "#C7B876" }}
-          ></div>
-          <h4
-            className={`${montserrat.className} ${style.courses_title} text-xl  `}
-          >
-            ENCUENTRA TU CAMINO
-          </h4>
+      <section className={style.container_card_Links}>
+ 
+        <div className={style.card_image_link}>
+          <Link href="/indumentaria">
+         
+          <Image src="/imgIndumentari/homeImgIndumentary.jpg" alt="" width={500} height={500} />
+      
+          <span className={`${libreBaskerville.className} ${style.card_image_link_text} `}> Indumentaria</span>
+          </Link>
         </div>
-        <div className={style.card_container}>
-          {data?.props.jsonData.map((data: jsonData, index: any) => (
-            <Card key={index} {...data} />
-          ))}
+        <div className={style.card_image_link}>
+          <Link href="/cursos">
+         
+            <Image src="/cursos/homeImgCourse.jpg" alt="" width={500} height={500} />
+         
+          <span className={`${libreBaskerville.className} ${style.card_image_link_text} `}> Cursos</span>
+          </Link>
+          
         </div>
+        
       </section>
-      <section className={style.indumentari_container}>
-     
-        <div className={"flex justify-center items-center flex-col p-5"}>
-          <h2 className={`${libreBaskerville.className} color-black text-xl  `}>
-            INDUMENTARIA
-          </h2>
-
-          <div
-            style={{
-              width: "50%",
-              height: "1px",
-              backgroundColor: "#C7B876",
-            }}
-          ></div>
-          <h4
-            className={`${montserrat.className} ${style.courses_title} text-l text-center  `}
-          >
-            ENCUENTRA TU AIRE DE REINA
-          </h4>
-        </div>
-        <div className={style.container_cards_indumentari}>
-          <div className={style.card_indumentari}>
-            <div
-              className={`${style.card_indumentari_image} `}
-              style={{ backgroundImage: `url(/imgIndumentari/novia.jpg)` }}
-            ></div>
-            <div className={style.card_indumentari_conteiner_title_button}>
-              <div
-                className={`${libreBaskerville.className} ${style.card_indumentari_title} text-2xl `}
-              >
-                <h2>NOVIAS</h2>
-              </div>
-              <div
-                style={{
-                  width: "100%",
-                  height: "1px",
-                  backgroundColor: "#C7B876",
-                }}
-              ></div>
-              <div className={style.card_indumentari_button}>
-                <Link href="/indumentaria">
-                  <button type="button">VER MÁS</button>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className={style.card_indumentari}>
-            <div
-              className={`${style.card_indumentari_image} `}
-              style={{ backgroundImage: `url(/imgIndumentari/quince.jpg)` }}
-            ></div>
-            <div className={style.card_indumentari_conteiner_title_button}>
-              <div
-                className={`${libreBaskerville.className} ${style.card_indumentari_title} text-2xl text-center`}
-              >
-                <h2>QUINCEAÑOS</h2>
-              </div>
-              <div
-                style={{
-                  width: "100%",
-                  height: "1px",
-                  backgroundColor: "#C7B876",
-                }}
-              ></div>
-              <div className={style.card_indumentari_button}>
-                <Link href="/indumentaria">
-                  <button type="button">VER MÁS</button>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className={style.card_indumentari}>
-            <div
-              className={`${style.card_indumentari_image} `}
-              style={{ backgroundImage: `url(/imgIndumentari/pretaPorte.jpg)` }}
-            ></div>
-            <div className={style.card_indumentari_conteiner_title_button}>
-              <div
-                className={`${libreBaskerville.className} ${style.card_indumentari_title} text-2xl `}
-              >
-                <h2>PRET-A-PORTE</h2>
-              </div>
-              <div
-                style={{
-                  width: "100%",
-                  height: "1px",
-                  backgroundColor: "#C7B876",
-                }}
-              ></div>
-              <div className={style.card_indumentari_button}>
-                <Link href="/indumentaria">
-                  <button type="button">VER MÁS</button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
     </main>
   );
 }
