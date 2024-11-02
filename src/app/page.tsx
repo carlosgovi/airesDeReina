@@ -71,7 +71,7 @@ export default async function Home() {
         <div className={style.card_image_link}>
           <Link href="/indumentaria">
          
-          <Image src="/imgIndumentari/homeImgIndumentary.jpg" alt="" width={500} height={500} />
+          <Image src="/imgIndumentari/homeImgIndumentary.jpg" alt="" width={700} height={700} />
       
           <span className={`${libreBaskerville.className} ${style.card_image_link_text} `}> Indumentaria</span>
           </Link>
@@ -79,7 +79,7 @@ export default async function Home() {
         <div className={style.card_image_link}>
           <Link href="/cursos">
          
-            <Image src="/cursos/homeImgCourse.jpg" alt="" width={500} height={500} />
+            <Image src="/cursos/homeImgCourse.jpg" alt="" width={700} height={700} />
          
           <span className={`${libreBaskerville.className} ${style.card_image_link_text} `}> Cursos</span>
           </Link>

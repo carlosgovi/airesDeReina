@@ -30,145 +30,107 @@ const Quinceaneras = () => {
         horas={2}
         tipe="indumentary"
       />
-      <section className={style.container_description_course}>
-        <div className={style.container_description_img}>
-          <Image
-            src="/cursos/imgCursoBlazer.jpg"
-            alt="Aires de Reina"
-            width={350}
-            height={350}
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-        <div className={style.container_description_text}>
-          <h3
-            className={`${libreBaskerville.className} ${style.title_description} `}
-          >
-            DESCRIPCION
-          </h3>
-          <div
-            style={{
-              width: "80%",
-              height: "1px",
-              backgroundColor: "#C7B876",
-            }}
-          ></div>
-          <div className={style.container_text}>
-            <h5 className={`${libreBaskerville.className} ${style.title} `}>
-              TALLER DE BLAZER
-            </h5>
-            <ul>
-              <ul>
-                <li>
-                  <h5>1. Introducción y Medidas:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Presentación del curso.</li>
-                    <li>Materiales y medidas.</li>
-                    <li>Corpiño base delantero y espalda.</li>
-                  </ul>
-                </li>
-              </ul>
+     <section className={style.container_description_course}>
+  <div className={style.container_description_img}>
+    <Image
+      src="/imgIndumentari/quinceaneraIndumentari.jpg"
+      alt="Aires de Reina"
+      width={350}
+      height={350}
+      style={{
+        width: "100%",
+        height: "100%",
+        objectFit: "cover",
+      }}
+    />
+  </div>
+  <div className={style.container_description_text}>
+    <h3
+      className={`${libreBaskerville.className} ${style.title_description}`}
+    >
+      DESCRIPCIÓN
+    </h3>
+    <div
+      style={{
+        width: "80%",
+        height: "1px",
+        backgroundColor: "#C7B876",
+      }}
+    ></div>
+    <div className={style.container_text}>
+      <h5 className={`${libreBaskerville.className} ${style.title}`}>
+        CONFECCIÓN DE VESTIDOS DE QUINCE AÑOS
+      </h5>
+      <ul>
+        <li>
+          <h5>1. Primer Encuentro Inspirador:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Conversación íntima para conocer los sueños y deseos de la quinceañera.</li>
+            <li>Exploración de estilos, colores y detalles románticos o modernos.</li>
+          </ul>
+        </li>
+        <li>
+          <h5>2. Toma de Medidas y Elección de Silueta:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Mediciones precisas para un ajuste elegante y personalizado.</li>
+            <li>Selección de la silueta ideal: princesa, sirena o contemporáneo.</li>
+          </ul>
+        </li>
+        <li>
+          <h5>3. Boceto y Diseño:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Presentación de un diseño personalizado y único.</li>
+            <li>Aprobación final del boceto, reflejando el estilo deseado.</li>
+          </ul>
+        </li>
+        <li>
+          <h5>4. Selección de Materiales:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Elección de telas, bordados y aplicaciones que aporten magia y elegancia.</li>
+            <li>Prueba de combinaciones para reflejar la personalidad de la quinceañera.</li>
+          </ul>
+        </li>
+        <li>
+          <h5>5. Confección Inicial:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Creación de la base del vestido: corpiño, falda y detalles iniciales.</li>
+            <li>Unión de piezas para la primera estructura.</li>
+          </ul>
+        </li>
+        <li>
+          <h5>6. Primera Prueba:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Ajustes según la retroalimentación de la quinceañera y familia.</li>
+            <li>Primer vistazo del vestido en progreso.</li>
+          </ul>
+        </li>
+        <li>
+          <h5>7. Detalles Finos y Decoración:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Incorporación de encajes, tul, bordados y detalles personalizados.</li>
+            <li>Acabados finales en el corpiño y falda para dar vida al diseño.</li>
+          </ul>
+        </li>
+        <li>
+          <h5>8. Prueba Final:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Verificación de ajuste perfecto y comodidad.</li>
+            <li>Confirmación de detalles antes de la entrega.</li>
+          </ul>
+        </li>
+        <li>
+          <h5>9. Entrega y Preparación para el Gran Día:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Vestido listo para un día inolvidable.</li>
+            <li>Instrucciones de cuidado para el gran día.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-              <ul>
-                <li>
-                  <h5>2. Transformación y Estilo:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Transformación del corpiño base.</li>
-                    <li>Chaqueta entallada y cuello smoking.</li>
-                  </ul>
-                </li>
-              </ul>
 
-              <ul>
-                <li>
-                  <h5>3. Detalles de Diseño:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Cuello solapa y para solapa.</li>
-                    <li>Creación de la manga base.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>4.Manga y Textiles: </h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Transformación de manga base.</li>
-                    <li>Manga tipo sastre.</li>
-                    <li>Elección y uso de textiles.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>5.Preparación para Confección: </h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Plano de corte.</li>
-                    <li>Inicio de la confección y entretelado.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>6. Ensamble Inicial:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Unión de piezas delanteras y traseras.</li>
-                    <li>Unión de hombros y primera prueba.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>7. Armado de Mangas:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Unión de manga y bajo manga.</li>
-                    <li>Ensamble completo de las mangas.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>8. Forrería y Ajustes:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Armado de forrería.</li>
-                    <li>Ajustes necesarios en la forrería.</li>
-                    <li>Unión de la vista con la forrería.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>9. Montaje Final: </h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Montaje de forrería a tela principal.</li>
-                    <li>Armado de cuello.</li>
-                    <li>Montaje completo del cuello.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>10. Finalización y Detalles: </h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Terminaciones y ruedos.</li>
-                    <li>Proceso final de planchado.</li>
-                  </ul>
-                </li>
-              </ul>
-            </ul>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };

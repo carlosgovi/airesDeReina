@@ -35,6 +35,7 @@
 @media screen and (max-width: 768px) {
   .container_description_text {
     width: 100%;
+    padding: 30px;
   }
 }
 .container_text {

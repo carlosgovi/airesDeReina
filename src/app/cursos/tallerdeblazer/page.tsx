@@ -34,8 +34,8 @@ const Blazer = () => {
           <Image
             src="/cursos/imgCursoBlazer.jpg"
             alt="Aires de Reina"
-            width={350}
-            height={350}
+            width={650}
+            height={650}
             style={{
               width: "100%",
               height: "100%",

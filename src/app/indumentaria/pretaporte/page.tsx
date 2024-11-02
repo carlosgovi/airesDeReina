@@ -14,7 +14,7 @@ const Pretaporte = () => {
         style={{
           width: "100%",
           height: "100vh",
-          backgroundImage: `url(/cursos/imgCursoBlazer.jpg)`,
+          backgroundImage: `url(/imgIndumentari/pretaPorte.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -24,150 +24,84 @@ const Pretaporte = () => {
       ></div>
 
       <CardCourse
-        title="TALLER DE BLAZER"
-        text="Durante este taller, adquirirás las habilidades esenciales para desarrollar la moldería base y sus transformaciones, así como los conocimientos fundamentales de costura, ensamblaje, colocación de detalles y acabados, centrándonos en la confección de un elegante blazer."
+        title="PRET-A-PORTE"
+        text="Encuentra el vestido ideal para destacar en tu ocasión especial, desde estilos atemporales y refinados hasta propuestas modernas y audaces."
         clases={12}
         horas={2}
+        tipe="indumentary"
       />
       <section className={style.container_description_course}>
-        <div className={style.container_description_img}>
-          <Image
-            src="/cursos/imgCursoBlazer.jpg"
-            alt="Aires de Reina"
-            width={350}
-            height={350}
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-            }}
-          />
-        </div>
-        <div className={style.container_description_text}>
-          <h3
-            className={`${libreBaskerville.className} ${style.title_description} `}
-          >
-            DESCRIPCION
-          </h3>
-          <div
-            style={{
-              width: "80%",
-              height: "1px",
-              backgroundColor: "#C7B876",
-            }}
-          ></div>
-          <div className={style.container_text}>
-            <h5 className={`${libreBaskerville.className} ${style.title} `}>
-              TALLER DE BLAZER
-            </h5>
-            <ul>
-              <ul>
-                <li>
-                  <h5>1. Introducción y Medidas:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Presentación del curso.</li>
-                    <li>Materiales y medidas.</li>
-                    <li>Corpiño base delantero y espalda.</li>
-                  </ul>
-                </li>
-              </ul>
+  <div className={style.container_description_img}>
+    <Image
+      src="/imgIndumentari/pretaPorteIndumentari.jpg"
+      alt="Aires de Reina"
+      width={350}
+      height={350}
+      style={{
+        width: "100%",
+        height: "100%",
+        objectFit: "cover",
+      }}
+    />
+  </div>
+  <div className={style.container_description_text}>
+    <h3
+      className={`${libreBaskerville.className} ${style.title_description}`}
+    >
+      DESCRIPCIÓN
+    </h3>
+    <div
+      style={{
+        width: "80%",
+        height: "1px",
+        backgroundColor: "#C7B876",
+      }}
+    ></div>
+    <div className={style.container_text}>
+      <h5 className={`${libreBaskerville.className} ${style.title}`}>
+        VESTIDOS PRÊT-À-PORTER
+      </h5>
+      <ul>
+        <li>
+          <h5>1. Selección de Estilo:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Amplia gama de diseños preelaborados, listos para llevar.</li>
+            <li>Opciones que combinan lo moderno con el romanticismo clásico.</li>
+          </ul>
+        </li>
+        <li>
+          <h5>2. Calidad en Materiales:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Uso de telas elegantes y versátiles que garantizan comodidad.</li>
+            <li>Selección de encajes, bordados y detalles únicos.</li>
+          </ul>
+        </li>
+        <li>
+          <h5>3. Ajustes Personalizados:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Ajustes rápidos para adaptarse a la figura de la clienta.</li>
+            <li>Detalles menores adaptables según preferencia y comodidad.</li>
+          </ul>
+        </li>
+        <li>
+          <h5>4. Proceso de Prueba:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Prueba en tienda para asegurar que el ajuste sea perfecto.</li>
+            <li>Opciones de ajuste final para máxima satisfacción.</li>
+          </ul>
+        </li>
+        <li>
+          <h5>5. Entrega Inmediata:</h5>
+          <ul style={{ listStyle: "disc" }}>
+            <li>Vestidos listos para llevar en un tiempo mínimo.</li>
+            <li>Ideal para quienes buscan una opción elegante y rápida.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-              <ul>
-                <li>
-                  <h5>2. Transformación y Estilo:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Transformación del corpiño base.</li>
-                    <li>Chaqueta entallada y cuello smoking.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>3. Detalles de Diseño:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Cuello solapa y para solapa.</li>
-                    <li>Creación de la manga base.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>4.Manga y Textiles: </h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Transformación de manga base.</li>
-                    <li>Manga tipo sastre.</li>
-                    <li>Elección y uso de textiles.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>5.Preparación para Confección: </h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Plano de corte.</li>
-                    <li>Inicio de la confección y entretelado.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>6. Ensamble Inicial:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Unión de piezas delanteras y traseras.</li>
-                    <li>Unión de hombros y primera prueba.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>7. Armado de Mangas:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Unión de manga y bajo manga.</li>
-                    <li>Ensamble completo de las mangas.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>8. Forrería y Ajustes:</h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Armado de forrería.</li>
-                    <li>Ajustes necesarios en la forrería.</li>
-                    <li>Unión de la vista con la forrería.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>9. Montaje Final: </h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Montaje de forrería a tela principal.</li>
-                    <li>Armado de cuello.</li>
-                    <li>Montaje completo del cuello.</li>
-                  </ul>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <h5>10. Finalización y Detalles: </h5>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Terminaciones y ruedos.</li>
-                    <li>Proceso final de planchado.</li>
-                  </ul>
-                </li>
-              </ul>
-            </ul>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
