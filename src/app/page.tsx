@@ -16,14 +16,9 @@ const libreBaskerville = Libre_Baskerville({
   weight: "400",
   subsets: ["latin"],
 });
-interface jsonData {
-  srcImg: string;
-  title: string;
-  description: [string];
-  durationData: string;
-}
+
 export default async function Home() {
-  const data = await getdata();
+
 
   return (
     <main className={montserrat.className}>
@@ -67,37 +62,27 @@ export default async function Home() {
         </div>
       </section>
       <section className={style.container_card_Links}>
- 
+
         <div className={style.card_image_link}>
           <Link href="/indumentaria">
-         
-          <Image src="/imgIndumentari/homeImgIndumentary.jpg" alt="" width={700} height={700} />
-      
-          <span className={`${libreBaskerville.className} ${style.card_image_link_text} `}> Indumentaria</span>
+
+            <Image src="/imgIndumentari/homeImgIndumentary.jpg" alt="" width={700} height={700} />
+
+            <span className={`${libreBaskerville.className} ${style.card_image_link_text} `}> Indumentaria</span>
           </Link>
         </div>
         <div className={style.card_image_link}>
           <Link href="/cursos">
-         
+
             <Image src="/cursos/homeImgCourse.jpg" alt="" width={700} height={700} />
-         
-          <span className={`${libreBaskerville.className} ${style.card_image_link_text} `}> Cursos</span>
+
+            <span className={`${libreBaskerville.className} ${style.card_image_link_text} `}> Cursos</span>
           </Link>
-          
+
         </div>
-        
+
       </section>
     </main>
   );
 }
-//get data JSON for Cards Cursos
-async function getdata() {
-  const filePath = "public/dataCursos.json";
-  const jsonData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
-  return {
-    props: {
-      jsonData,
-    },
-  };
-}

@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_description_course {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .container_description_course {
+    flex-direction: column;
+  }
+}
+
+.container_description_img {
+  width: 400px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_description_text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container_description_text {
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+.text {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px;
+  color: #333; /* Color de texto para mayor legibilidad */
+}
+
+.title_description {
+  font-size: 30px;
+  padding: 20px;
+  color: #c7b876; ;
+}
+
+.title {
+  font-size: 30px;
+  padding: 20px;
+  color: #c7b876;
+  text-align: center;
+}
