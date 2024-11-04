@@ -41,11 +41,7 @@ const Blog = () => {
             />
             <div className={style.tipContent}>
               <h4>1. Margen de costura</h4>
-              <p>Cuando dibujamos patrones, en la mayoría de los casos lo hacemos sin margen de costura, y una vez acabado tenemos que estar cogiendo la regla y dibujar todo un contorno con 1 cm o 1,5 cm a su alrededor para añadirlo.
-
-                Con este truco la cosa se hace mucho más fácil y en mucho menos tiempo.
-
-                Dos lápices unidos por una goma elástica y pasando un lápiz por la línea del patrón dibujarás directamente la línea del margen de costura de 1 cm. Rápido y eficaz, te lo digo yo que lo uso a diario, o casi.</p>
+              <p>Cuando dibujamos patrones, en la mayoría de los casos lo hacemos sin margen de costura, y una vez terminado tenemos que estar agarrando la regla y dibujar todo un contorno con 1 cm o 1,5 cm alrededor para añadirlo. Con este truco, la cosa se hace mucho más fácil y en mucho menos tiempo. Dos lápices unidos por una banda elástica y pasando un lápiz por la línea del patrón, dibujarás directamente la línea del margen de costura de 1 cm. Rápido y eficaz, te lo digo yo que lo uso a diario, o casi.</p>
             </div>
           </div>
 
@@ -58,12 +54,12 @@ const Blog = () => {
               className={style.tipImage}
             />
             <div className={style.tipContent}>
-              <h4>2. Cinta carrocero (cinta papel)</h4>
-              <p>Se acabaron esos momentos de subidas de tensión, y ganas de mandarlo todo a tomar por saco, cuando cosas una tela difícil.
+              <h4>2. Cinta carrocero (cinta papel, cinta de enmascarar)</h4>
+              <p>Se terminaron esos momentos de subidón de tensión y ganas de mandar todo a la miércoles cuando tengas que coser una tela complicada.
 
-                Con este truco no habrá tela resbaladiza, fina o caprichosa que se te resista.
+Con este truco, no habrá tela resbalosa, finita o mañosa que te dé pelea.
 
-                Pon un poco de cinta de carrocero en la base de tu prensatelas, es mano de santo, te lo aseguro. </p>
+Poné un poco de cinta de enmascarar en la base de tu prensatelas. ¡Es una maravilla, te lo aseguro!</p>
             </div>
           </div>
 
@@ -78,11 +74,11 @@ const Blog = () => {
             <div className={style.tipContent}>
               <h4>3. Papel Aluminio</h4>
               <p>
-                Tus tijeras de cortar tela tienen ya más años que la tos, quizás necesiten un afilado.
+              Tus tijeras para cortar tela ya tienen más años que Matusalén; capaz que necesitan un buen afilado.
 
-                Si te pilla a desmano el llevarlas a un afilador de los de toda la vida, coge una poco de papel de aluminio, dóblalo varias veces sobre si mismo, y haz cortes longitudinales con tu tijera.
+Si no tenés un afilador cerca, agarrá un poco de papel de aluminio, doblalo varias veces sobre sí mismo y hacé cortes largos con las tijeras.
 
-                Verás que se animarán a cortar mejor.
+Vas a ver cómo se ponen a cortar mucho mejor.
               </p>
             </div>
           </div>
@@ -97,11 +93,9 @@ const Blog = () => {
             />
             <div className={style.tipContent}>
               <h4>4. Un ojal</h4>
-              <p>
-                Cuantas veces has cogido un descosedor y, mientras abrías un ojal, te has pasado de fuerza y te lo has cargado. Lo que se llama liarla parda en toda regla.
+              <p>¿Cuántas veces agarraste un descosedor y, mientras abrías un ojal, te pasaste de fuerza y lo terminaste rompiendo? Lo que sería un desastre en toda regla.
 
-                Para que esto no os vuelva a pasar pon un alfiler al final del ojal, te hará de tope e impedirá que abras el ojal más de la cuenta.
-              </p>
+Para que no te vuelva a pasar, poné un alfiler o aguja al final del ojal; te va a hacer de tope e impedir que lo abras de más.</p>
             </div>
           </div>
 
@@ -115,9 +109,9 @@ const Blog = () => {
             />
             <div className={style.tipContent}>
               <h4>5. Goma Elástica </h4>
-              <p>Se te mueve la tela mientras las coses, y te cuesta seguir la línea guía de tú máquina de coser para mantener el margen de costura.
+              <p>La tela se te mueve mientras cosés, y te cuesta seguir la línea guía de tu máquina para mantener el margen de costura.
 
-                Pues no pasa nada, coge una goma elástica rodea el brazo de tu máquina y ponla a la distancia de costura (margen de costura), hará de tope y evitará que te despistes. </p>
+No te preocupes: agarrá una banda elástica, rodeá el brazo de la máquina y ponela a la distancia del margen de costura. Así te va a hacer de tope y te va a ayudar a no perderte. </p>
             </div>
           </div>
         </div>
